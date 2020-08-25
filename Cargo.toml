@@ -69,6 +69,7 @@ bevy_winit = { path = "crates/bevy_winit", optional = true, version = "0.1" }
 [dev-dependencies]
 rand = "0.7.2"
 serde = { version = "1", features = ["derive"]}
+env_logger = "0.7.1"
 
 [[example]]
 name = "hello_world"
@@ -209,6 +210,10 @@ path = "examples/shader/shader_defs.rs"
 [[example]]
 name = "button"
 path = "examples/ui/button.rs"
+
+[[example]]
+name = "storybook"
+path = "examples/ui/storybook.rs"
 
 [[example]]
 name = "text"
